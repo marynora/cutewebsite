@@ -4,11 +4,13 @@ const noBtn = document.getElementById("noBtn");
 function moveButton(e) {
     e.preventDefault();
 
-    const maxX = window.innerWidth - yesBtn.offsetWidth;
-    const maxY = window.innerHeight - yesBtn.offsetHeight;
+    const padding = 20;
 
-    const randomX = Math.random() * maxX;
-    const randomY = Math.random() * maxY;
+    const maxX = window.innerWidth - yesBtn.offsetWidth - padding;
+    const maxY = window.innerHeight - yesBtn.offsetHeight - padding;
+
+    const randomX = Math.random() * maxX + padding;
+    const randomY = Math.random() * maxY + padding;
 
     yesBtn.style.position = "absolute";
     yesBtn.style.left = randomX + "px";

@@ -37,3 +37,26 @@ button {
     background-color: #555;
     color: white;
 }
+
+.pepe {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .pepe {
+        width: 50vw;
+    }
+}
