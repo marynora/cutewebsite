@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ffe6f0;
+    background: #D0F0C0;
     font-family: Arial, sans-serif;
     overflow: hidden;
 }
@@ -25,16 +25,16 @@ button {
     border-radius: 10px;
     cursor: pointer;
     margin: 10px;
+    width: 120px;
 }
 
 #yesBtn {
-    position: absolute;
-    background-color: #ff69b4;
+    background-color: #9ACD32;
     color: white;
 }
 
 #noBtn {
-    background-color: #555;
+    background-color: #CF9FFF;
     color: white;
 }
 
